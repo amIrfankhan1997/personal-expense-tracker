@@ -1,0 +1,40 @@
+# Node.js dependencies
+**/node_modules/
+
+# Environment files
+**/.env
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build output for frontend (React build)
+expense-tracker/build/
+
+# Backend build or temporary files (e.g., models compiled or generated code)
+models/build/
+
+# Frontend build output
+expense-tracker/dist/
+
+# IDEs and editors configuration
+.vscode/
+.idea/
+*.swp
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Dependency directories that might be created by tools like Docker
+/.docker/
+
+# Optional: If you're using TypeScript, include this
+# tsconfig.json, tsconfig.tsbuildinfo
+
+# Optional: If using yarn
+yarn.lock
+
+# Optional: If using .env files for configuration
+.env.*
